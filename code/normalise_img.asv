@@ -1,0 +1,7 @@
+function [normal_vector] = normalise_vector(img_vector)
+    img = double(img_vector);
+    mean = mean(img_vector);
+    normalImg = img;
+end
+    
+    
